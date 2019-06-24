@@ -1,0 +1,39 @@
+body {
+    background-color: beige;
+    color: tomato;
+    font-family: Arial;
+}
+
+.all {
+    display: flex;
+}
+
+.dr {
+    flex: 1;
+    font-family:'Times New Roman', Times, serif; 
+
+}
+
+.form {
+    flex: 1;
+    background-color: rgb(206, 142, 206);
+    padding: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(0, 0, 0);
+}
+
+.workshop {
+    color:white;
+}
+
+input {
+    border: none;
+    width: 100%;
+    height: 50px;
+}
+
+.sm input {
+    width: 2rem; 
+
+}
